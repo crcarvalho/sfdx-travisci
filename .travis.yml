@@ -1,6 +1,9 @@
 sudo: true
 os: trusty
 cache: false
+language: ruby
+rvm:
+  - 2.0.0
 env:
 - URL=https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz
 addons:
